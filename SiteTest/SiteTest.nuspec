@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MyProject</id>
+    <version>1.0.0</version>
+    <title>MyProject</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NuSpec file</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+  <files>
+    <file src="bin\*.dll" target="bin" />
+    <file src="Views\**\*" target="Views" />
+  </files>
+</package>
